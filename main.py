@@ -14,8 +14,8 @@ def create_item(item: dict):
     return{"item": item}
 
 import joblib
-model = joblib.load('Models/knn_model (2).joblib')
-scaler = joblib.load('Models/scaler (1).joblib')
+model = joblib.load('knn_model (2).joblib')
+scaler = joblib.load('scaler (1).joblib')
 
 
 class InputFeatures(BaseModel):
